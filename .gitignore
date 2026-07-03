@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# Models / checkpoints / outputs
+checkpoints/
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+results/
+attack_results/
+outputs/
+*.png
+*.jpg
+
+# Env
+.venv/
+.env
+.cache/

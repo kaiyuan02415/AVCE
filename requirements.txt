@@ -1,0 +1,23 @@
+# Core
+torch>=2.1.0
+diffusers>=0.27.0
+transformers>=4.38.0
+safetensors>=0.4.0
+accelerate>=0.27.0
+numpy>=1.24
+tqdm
+
+# Evaluation
+scikit-learn          # Isolation Forest for CCS/CRS auditing
+Pillow
+torchvision
+pandas
+datasets              # HuggingFace datasets (nude_helper)
+nudenet               # explicit-content detection (I2P NudeNet eval)
+open-clip-torch       # CLIP score / artistic-style eval
+ftfy
+regex
+
+# Attacks (optional, only needed to reproduce ASR1/2/3)
+# Ring-A-Bell / P4D / UnlearnDiffAtk bring their own extra deps;
+# see eval/attacks/<name>/ for details.
