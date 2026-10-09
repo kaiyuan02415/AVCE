@@ -20,3 +20,6 @@ outputs/
 .venv/
 .env
 .cache/
+
+# OS
+.DS_Store
